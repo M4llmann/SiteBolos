@@ -1,0 +1,62 @@
+/* Estilo específico para a página de carrinho de compras */
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+table {
+    margin: auto;
+    width: 70%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background-color: #c846da;
+    color: white;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.pedido {
+    font-size: 18px;
+}
+
+.total {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn {
+    margin: auto;
+    background-color: #c846da;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #a13ea1;
+}
+
+/* Fim do estilo específico para a página de carrinho de compras */
